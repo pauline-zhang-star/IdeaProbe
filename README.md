@@ -1,8 +1,14 @@
-# IdeaProbe
+# IdeaProbe — Open-source AI market research & competitor analysis
+
+[Project homepage](https://pauline-zhang-star.github.io/IdeaProbe/) · [Project summary for AI tools](https://pauline-zhang-star.github.io/IdeaProbe/llms.txt)
 
 A local web app that turns a product idea into a sourced market research report. Discover competitors, collect available reviews and discussions, and compare opportunities using your own model and search API keys.
 
 本地运行的产品前期调研工具：输入想法，确认 AI 的理解和检索词，搜索相关产品、采集真实评价，生成带来源引用的报告。使用你自己的 API key。
+
+**Use cases:** product idea validation research, competitor discovery, app review analysis, open-source tool research, and market research for indie developers and creators.
+
+**用途：** 产品想法前期调研、竞品搜索、App 用户评价分析、开源工具调研、独立开发者与创作者市场研究。
 
 ## Features / 功能
 
