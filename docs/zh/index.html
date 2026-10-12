@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IdeaProbe — 开源 AI 市场调研与竞品分析</title>
+<meta name="description" content="IdeaProbe 是给创业者和创作者使用的开源本地 AI 市场调研工具。发现竞品、分析真实评价，使用自己的 API key 生成带来源的报告。">
+<link rel="alternate" hreflang="en" href="https://pauline-zhang-star.github.io/IdeaProbe/en/">
+<link rel="alternate" hreflang="zh-CN" href="https://pauline-zhang-star.github.io/IdeaProbe/zh/">
+<link rel="alternate" hreflang="x-default" href="https://pauline-zhang-star.github.io/IdeaProbe/">
+<script src="../language.js" defer></script>
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://pauline-zhang-star.github.io/IdeaProbe/zh/">
+<meta property="og:type" content="website"><meta property="og:title" content="IdeaProbe — 动手之前，先看清市场">
+<meta property="og:description" content="发现竞品，分析真实用户反馈，生成带来源的市场调研报告。开源、本地运行、自选模型。">
+<meta property="og:url" content="https://pauline-zhang-star.github.io/IdeaProbe/zh/">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="IdeaProbe — AI 市场调研"><meta name="twitter:description" content="本地开源竞品发现与评价分析工具，提供带来源的报告。">
+<link rel="alternate" type="text/plain" href="../llms.txt" title="IdeaProbe 项目摘要">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "SoftwareSourceCode", "name": "IdeaProbe", "description": "IdeaProbe 是给创业者和创作者使用的开源本地 AI 市场调研工具。发现竞品、分析真实评价，使用自己的 API key 生成带来源的报告。", "url": "https://pauline-zhang-star.github.io/IdeaProbe/zh/", "codeRepository": "https://github.com/pauline-zhang-star/IdeaProbe", "license": "https://github.com/pauline-zhang-star/IdeaProbe/blob/main/LICENSE", "programmingLanguage": ["TypeScript", "Python"], "runtimePlatform": "Node.js 24+ and Python 3.9+", "keywords": ["AI market research", "competitor analysis", "product idea validation", "review analysis", "open source", "local application"], "inLanguage": "zh-CN"}</script>
+<style>
+:root{color-scheme:light;--ink:#17332d;--muted:#536961;--green:#166951}*{box-sizing:border-box}body{margin:0;background:#f5f7f2;color:var(--ink);font:17px/1.7 system-ui,sans-serif}main{max-width:1040px;margin:auto;padding:32px 24px 70px}nav{display:flex;justify-content:space-between;gap:20px;align-items:center}a{color:var(--green)}.brand{font-weight:750;font-size:23px}.hero{padding:72px 0 48px;max-width:780px}h1{font-size:clamp(36px,6vw,62px);line-height:1.12;letter-spacing:-2px;margin:15px 0 25px}h2{font-size:27px;margin-top:42px}h3{font-size:20px;margin:0 0 8px}.eyebrow{font-size:13px;letter-spacing:2px;font-weight:700}.muted{color:var(--muted)}.button{display:inline-block;background:var(--green);color:white;padding:12px 22px;border-radius:9px;text-decoration:none;margin:14px 12px 0 0}.outline{background:white;color:var(--green);border:1px solid #b6cdc0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:24px;border:1px solid #dce4da;border-radius:14px;background:white}.card p{margin:0}pre{background:#eaf0e8;padding:20px;border-radius:12px;overflow:auto;font-size:14px}details{border-bottom:1px solid #dce4da;padding:18px 0}summary{cursor:pointer;font-weight:650}footer{margin-top:45px;font-size:14px}section{scroll-margin-top:20px}@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding-top:45px}}
+</style>
+</head>
+<body><main>
+<nav><span class="brand">◈ IdeaProbe</span><div><a href="#how-it-works">调研流程</a> · <a href="../en/" lang="en" data-language="en">English</a> · <a href="https://github.com/pauline-zhang-star/IdeaProbe">GitHub</a></div></nav>
+<section class="hero"><span class="eyebrow">动手之前，先看清市场</span><h1>探索想法背后的市场。</h1><p class="muted">IdeaProbe 是给创业者、独立开发者和创作者使用的开源 AI 市场调研工具。发现相关产品，阅读实际可获得的用户评价，把想法整理成一份可追溯来源的报告。</p><a class="button" href="https://github.com/pauline-zhang-star/IdeaProbe/blob/main/README.zh-CN.md#本地启动">本地启动</a><a class="button outline" href="https://github.com/pauline-zhang-star/IdeaProbe">在 GitHub 查看代码</a><p class="muted">MIT 许可证 · 自备 API key · 支持中文与英文</p></section>
+<div class="grid"><section class="card"><h3>发现相关产品</h3><p>同时搜索 Bing RSS、Tavily 和 Brave。候选较少时扩大关键词，按功能、目标用户和场景匹配程度排序。</p></section><section class="card"><h3>阅读真实反馈</h3><p>查找 App Store、Google Play 及讨论来源。评论、讨论和产品宣传分别记录。</p></section><section class="card"><h3>查看带来源的报告</h3><p>深入调查最多 10 个入选产品，保留其他候选及未入选原因，展示证据链接和采集覆盖。支持导出 JSON 和打印为 PDF。</p></section></div>
+<section id="how-it-works"><h2>从产品想法到竞品调研</h2><ol><li>描述产品想法，可填写已知竞品。</li><li>修改并确认 AI 的理解及实际检索关键词。</li><li>设置搜索次数、页面数、token 和评论上限，然后开始调研。</li><li>查看竞品排名、实际反馈、有证据的机会假设和下一步验证建议。</li></ol><p>理解、关键词和抽取与最终报告可分别使用不同供应商。支持 OpenAI、Anthropic Claude、Google Gemini 和兼容 Chat Completions 的服务。</p></section>
+<section id="quick-start"><h2>安装与本地运行</h2><p>需要 Node.js 24+ 和 Python 3.9+，无需数据库或 Docker。</p><pre><code>git clone https://github.com/pauline-zhang-star/IdeaProbe.git
+cd IdeaProbe
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+cp .env.example .env
+# 在 .env 中设置 PYTHON_BIN=.venv/bin/python
+npm start</code></pre><p>打开 <code>http://localhost:3210/</code>，配置模型供应商和 API key。Bing RSS 默认启用且无需搜索 key，Tavily 和 Brave 可选。Windows 启动方式及配置详情请查看 <a href="https://github.com/pauline-zhang-star/IdeaProbe/blob/main/README.zh-CN.md#本地启动">README</a>。</p></section>
+<section id="faq"><h2>常见问题</h2><details><summary>IdeaProbe 有什么用途？</summary><p>在开发产品前进行市场调研、竞品发现和评价分析。它把已有证据整理成带来源的报告，不能证明需求成立或预测产品成功。</p></details><details><summary>IdeaProbe 免费吗？</summary><p>软件采用 MIT 许可证，在本机运行。模型和搜索供应商可能按 API 使用量收费，本地版无需向本项目订阅付费。</p></details><details><summary>可以使用 Claude、Gemini 或其他模型吗？</summary><p>可以。理解与抽取、最终报告可分别配置供应商、模型 ID 和对应 key。自定义接口需支持 OpenAI Chat Completions 和 JSON 输出。</p></details><details><summary>可以检索开源项目吗？</summary><p>网页搜索可以发现 GitHub 仓库和其他开源工具。当前使用通用网页搜索源，尚未接入专用 GitHub Search API；覆盖取决于关键词和搜索供应商。</p></details><details><summary>没有找到评价时会怎样？</summary><p>仍然保留产品信息，并在采集覆盖中显示反馈缺失。不会编造评价，也不会把产品宣传当作用户反馈。</p></details><details><summary>数据和 API key 保存在哪里？</summary><p>任务和 key 保存在本机 <code>.data/</code> 中。调研内容会发送给你选择的模型和搜索供应商，不发送给项目作者。这个公开页面仅提供产品说明。</p></details></section>
+<footer class="muted">IdeaProbe · <a href="https://github.com/pauline-zhang-star/IdeaProbe/blob/main/LICENSE">MIT 许可证</a> · <a href="../llms.txt">纯文本项目摘要</a><p>搜索覆盖和 API 可用性可能变化。报告用于辅助调研，请核对证据，并通过真实用户验证需求。</p></footer>
+</main></body></html>

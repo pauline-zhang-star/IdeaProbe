@@ -1,16 +1,12 @@
 # IdeaProbe — Open-source AI market research & competitor analysis
 
-[Project homepage](https://pauline-zhang-star.github.io/IdeaProbe/) · [Project summary for AI tools](https://pauline-zhang-star.github.io/IdeaProbe/llms.txt)
+[简体中文](README.zh-CN.md) · [Project homepage](https://pauline-zhang-star.github.io/IdeaProbe/) · [Project summary for AI tools](https://pauline-zhang-star.github.io/IdeaProbe/llms.txt)
 
 A local web app that turns a product idea into a sourced market research report. Discover competitors, collect available reviews and discussions, and compare opportunities using your own model and search API keys.
 
-本地运行的产品前期调研工具：输入想法，确认 AI 的理解和检索词，搜索相关产品、采集真实评价，生成带来源引用的报告。使用你自己的 API key。
-
 **Use cases:** product idea validation research, competitor discovery, app review analysis, open-source tool research, and market research for indie developers and creators.
 
-**用途：** 产品想法前期调研、竞品搜索、App 用户评价分析、开源工具调研、独立开发者与创作者市场研究。
-
-## Features / 功能
+## Features
 
 - **Confirm before research:** edit the interpreted idea, problem, audience, scenario and search keywords. Broad discovery comes first; audience and scenario inform ranking rather than excluding products.
 - **Parallel search:** every query runs across all enabled and available sources: Bing RSS, Tavily and Brave. Results are merged and deduplicated; failures show their reasons. Sparse results trigger new keywords within the configured budget.
@@ -18,9 +14,9 @@ A local web app that turns a product idea into a sourced market research report.
 - **Real feedback:** discover and verify App Store, Google Play and discussion links. Collect what is available; reviews and discussion pages are counted separately. Marketing text is not user feedback, and missing reviews are never invented.
 - **Bring your own models:** choose separate providers and models for understanding/keyword generation/extraction and for the final report. Supports OpenAI, Anthropic Claude, Google Gemini and services compatible with OpenAI Chat Completions and JSON output.
 - **Local history and export:** progress indicators, collapsible report sections, saved tasks, JSON download and browser print to PDF.
-- **中文 / English:** follows the browser's first preferred language (Chinese for `zh`, otherwise English), with a manual switch. New reports use the selected interface language; existing reports are not automatically translated.
+- **Chinese and English:** follows the browser’s first preferred language (Chinese for `zh`, otherwise English), with a manual switch. New reports use the selected interface language; existing reports are not automatically translated.
 
-## Quick start / 本地启动
+## Quick start
 
 Requires **Node.js 24+** and **Python 3.9+**. No database, Docker or cloud deployment is needed. There are no Node package dependencies.
 
@@ -40,11 +36,11 @@ npm start
 
 Open **http://localhost:3210/**. In **API settings**, select a provider, enter model names and your API key, and save. Configure Tavily or Brave if wanted; Bing RSS is enabled without a search key.
 
-在网页右侧选择模型供应商、填写模型名称和自己的 API key，然后保存。理解/抽取和最终报告可以使用不同供应商；同一供应商及地址共用已保存的 key。提示“已配置”表示已保存密钥，不代表已验证权限或额度。
+The two stages can use different providers. A saved key is shared when both use the same provider and endpoint. “Configured” means a key is stored; it does not verify access or quota.
 
 On Windows, use `.venv\Scripts\python.exe` for installation and `PYTHON_BIN=.venv/Scripts/python.exe`. Copy `.env.example` to `.env` with your file manager or `Copy-Item .env.example .env` in PowerShell.
 
-### Model configuration / 模型配置
+### Model configuration
 
 | Provider | Interface | Configuration |
 | --- | --- | --- |
@@ -75,7 +71,7 @@ MODEL_MAX_OUTPUT_TOKENS=6000
 
 Saved webpage settings take precedence over environment settings. Tavily is used for reading page bodies; without it, product evidence uses search snippets and shows that limitation. Bing's public RSS endpoint may be unavailable or return poor results.
 
-## Workflow / 调研流程
+## Workflow
 
 1. Enter your idea, market/language codes and optional known competitors.
 2. Click **Understand my idea**, then edit and confirm the interpretation and actual search phrases.
@@ -84,11 +80,11 @@ Saved webpage settings take precedence over environment settings. Tavily is used
 5. Collect available reviews and verified discussions, analyze evidence, then generate and validate report citations.
 6. Expand report cards, inspect coverage and sources, download JSON or print to PDF.
 
-评论拿到多少算多少。没有评论仍可展示产品信息，但不会生成没有证据的“实际用户反馈”。报告的重点调查和采集覆盖最多包含 10 个入选产品；其他候选单独展示。
+Collect only available feedback. Products remain in the report when no reviews are found, without unsupported user-feedback claims. Selected products and coverage contain at most 10 products; other candidates appear separately.
 
 Closing the browser does not cancel a task. Stopping the server or shutting down the computer interrupts it; restart and continue confirmed tasks from local history. Completed stages are reused. A request interrupted before its result was saved may incur another charge when repeated.
 
-## Data, cost and limits / 数据、费用与限制
+## Data, cost and limits
 
 - Tasks are saved under `.data/<task-id>/state.json`, with evidence and report artifacts alongside them. There is no shared database or cross-user cache in this version.
 - Keys and research records stay on your computer; research content is sent to the model/search providers you use. Nothing is sent to the project author.
@@ -98,7 +94,7 @@ Closing the browser does not cancel a task. Stopping the server or shutting down
 - App review collection uses unofficial interfaces and may break or return no reviews. Discussion pages are not verified purchase reviews.
 - Hosted subscriptions, payments, a shared product database and incremental cross-user data reuse are not implemented.
 
-## Development / 开发
+## Development
 
 ```sh
 node --test tests/*.test.ts
@@ -114,6 +110,6 @@ tests/        Workflow, model routing, search, localization and collector tests
 .env.example  Configuration template without credentials
 ```
 
-## License / 许可证
+## License
 
 MIT — see [LICENSE](LICENSE).

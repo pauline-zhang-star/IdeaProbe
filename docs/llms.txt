@@ -3,6 +3,9 @@
 > IdeaProbe is an open-source local AI market research and competitor analysis app for founders, indie developers and creators. It discovers related products, collects available reviews and discussions, and generates reports with source references using the user's own API keys.
 
 ## Authoritative project sources
+- [Chinese documentation](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/README.zh-CN.md): Complete Chinese setup and usage guide.
+- [Chinese homepage](https://pauline-zhang-star.github.io/IdeaProbe/zh/): Chinese product overview.
+- [English homepage](https://pauline-zhang-star.github.io/IdeaProbe/en/): English product overview.
 - [Project homepage](https://pauline-zhang-star.github.io/IdeaProbe/): Product overview, installation, features and FAQ.
 - [GitHub repository](https://github.com/pauline-zhang-star/IdeaProbe): Application source and issue tracking.
 - [README](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/README.md): Local setup, configuration, workflow and limits.
@@ -20,5 +23,3 @@
 ## Limits and costs
 Software is MIT-licensed. Users pay their chosen API providers where applicable. Local tasks and keys are stored in .data; research content is sent to chosen providers. There is no hosted paid service, shared database, public live app, guaranteed full-web coverage, or guarantee of market demand. Review collection uses unofficial interfaces and may fail. Reviews are never invented; discussions are not verified purchase reviews. Other-provider real calls require the user's credentials.
 
-## 中文简介
-IdeaProbe 是开源本地产品前期市场调研工具，支持竞品发现、真实评价分析、多源并行搜索和带引用的报告。用户自备模型及搜索 API key。默认深入调查前 10 个相关产品，其他候选保留评分和未入选原因。
