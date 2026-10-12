@@ -1,4 +1,4 @@
-# Idea Research · 想法有据
+# IdeaProbe
 
 A local web app that turns a product idea into a sourced market research report. Discover competitors, collect available reviews and discussions, and compare opportunities using your own model and search API keys.
 
@@ -19,8 +19,8 @@ A local web app that turns a product idea into a sourced market research report.
 Requires **Node.js 24+** and **Python 3.9+**. No database, Docker or cloud deployment is needed. There are no Node package dependencies.
 
 ```sh
-git clone https://github.com/pauline-zhang-star/idea-research.git
-cd idea-research
+git clone https://github.com/pauline-zhang-star/IdeaProbe.git
+cd IdeaProbe
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 cp .env.example .env
