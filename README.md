@@ -67,6 +67,7 @@ PYTHON_BIN=.venv/bin/python
 PORT=3210
 DATA_DIR=.data
 MODEL_MAX_OUTPUT_TOKENS=6000
+MODEL_TIMEOUT_MS=180000
 ```
 
 Saved webpage settings take precedence over environment settings. Tavily is used for reading page bodies; without it, product evidence uses search snippets and shows that limitation. Bing's public RSS endpoint may be unavailable or return poor results.
@@ -113,3 +114,5 @@ tests/        Workflow, model routing, search, localization and collector tests
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+If a research step times out after evidence has been collected, the app automatically generates a report from available data and lists timed-out and unfinished steps. If report generation also times out or cannot produce a valid partial report, it displays collected source excerpts, explicitly marked as unanalysed. It does not fabricate missing findings.

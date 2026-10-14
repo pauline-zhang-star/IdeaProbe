@@ -67,6 +67,7 @@ PYTHON_BIN=.venv/bin/python
 PORT=3210
 DATA_DIR=.data
 MODEL_MAX_OUTPUT_TOKENS=6000
+MODEL_TIMEOUT_MS=180000
 ```
 
 网页保存的设置优先于环境配置。网页正文读取使用 Tavily；未配置时保留搜索摘要，并显示读取限制。Bing 公开 RSS 入口可能不可用或返回相关性较低的结果。
@@ -114,3 +115,5 @@ docs/         公开介绍页及检索元数据
 ## 许可证
 
 采用 MIT 许可证，参见 [LICENSE](LICENSE)。
+
+已采集到证据后发生超时，会自动用现有数据生成报告，列出超时和未完成步骤。报告生成也超时或无法生成有效的部分报告时，展示已有来源摘录，注明未经模型分析，不编造缺失结论。
