@@ -116,3 +116,5 @@ tests/        Workflow, model routing, search, localization and collector tests
 MIT — see [LICENSE](LICENSE).
 
 If a research step times out after evidence has been collected, the app automatically generates a report from available data and lists timed-out and unfinished steps. If report generation also times out or cannot produce a valid partial report, it displays collected source excerpts, explicitly marked as unanalysed. It does not fabricate missing findings.
+
+The “Generate report from existing results” action directly formats saved evidence, without model/search/collection requests or additional token usage. It works even when budgets are exhausted and labels the result as an incomplete, unanalysed evidence report.
