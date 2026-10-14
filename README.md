@@ -117,4 +117,4 @@ MIT — see [LICENSE](LICENSE).
 
 If a research step times out after evidence has been collected, the app automatically generates a report from available data and lists timed-out and unfinished steps. If report generation also times out or cannot produce a valid partial report, it displays collected source excerpts, explicitly marked as unanalysed. It does not fabricate missing findings.
 
-The “Generate report from existing results” action directly formats saved evidence, without model/search/collection requests or additional token usage. It works even when budgets are exhausted and labels the result as an incomplete, unanalysed evidence report.
+30% of the total token budget is reserved for evidence analysis and reporting (minimum 12,000, capped by the total). Discovery/extraction pauses before consuming this reserve. “Generate report from existing results” stops further searches and collection, analyzes saved feedback using available reserved tokens, and generates a report. Final report context is reduced to fit the remaining budget; stored evidence is retained. If no model budget remains, it falls back to an explicitly unanalysed evidence report.
