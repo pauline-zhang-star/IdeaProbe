@@ -118,3 +118,5 @@ MIT — see [LICENSE](LICENSE).
 If a research step times out after evidence has been collected, the app automatically generates a report from available data and lists timed-out and unfinished steps. If report generation also times out or cannot produce a valid partial report, it displays collected source excerpts, explicitly marked as unanalysed. It does not fabricate missing findings.
 
 30% of the total token budget is reserved for evidence analysis and reporting (minimum 12,000, capped by the total). Discovery/extraction pauses before consuming this reserve. “Generate report from existing results” stops further searches and collection, analyzes saved feedback using available reserved tokens, and generates a report. Final report context is reduced to fit the remaining budget; stored evidence is retained. If no model budget remains, it falls back to an explicitly unanalysed evidence report.
+
+New tasks default to 2,000,000 tokens: 1,400,000 for research and 600,000 reserved for analysis/reporting. Users can adjust the limit. Incomplete reports retain every workflow step and report category, showing the status and reason for missing content.
