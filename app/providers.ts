@@ -53,7 +53,7 @@ export class Providers {
   async search(run:any,query:string,purpose='discovery') {
     const providers=await settings.providers();
     if(!providers.length)throw new Error('请在搜索设置中配置至少一个搜索源');
-    const counter=purpose==='feedback'?'feedbackSearchCalls':'searchCalls';const limit=purpose==='feedback'?(run.budget.maxFeedbackSearches??20):run.budget.maxSearches;run.usage[counter] ||= 0;
+    const counter=purpose==='coverage'?'coverageSearchCalls':purpose==='feedback'?'feedbackSearchCalls':'searchCalls';const limit=purpose==='coverage'?(run.budget.maxCoverageSearches??20):purpose==='feedback'?(run.budget.maxFeedbackSearches??20):run.budget.maxSearches;run.usage[counter] ||= 0;
     const hits:any[]=[];let successful=0;
     run.searchAttempts ||= [];
     if(limit-run.usage[counter]<providers.length)throw new BudgetError('剩余预算不足以同时查询所有搜索源，请增加预算');
