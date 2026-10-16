@@ -1,0 +1,251 @@
+{
+  "name": "IdeaProbe",
+  "updated": "2026-10-16",
+  "homepage": "https://pauline-zhang-star.github.io/IdeaProbe/",
+  "repository": "https://github.com/pauline-zhang-star/IdeaProbe",
+  "version": "0.1.0",
+  "languages": {
+    "en": {
+      "title": "IdeaProbe product facts: AI market research, competitor discovery and review analysis",
+      "description": "Verified product facts about IdeaProbe: a local, open-source AI market research app with competitor discovery, requirement coverage checks, review analysis and sourced reports.",
+      "heading": "What is IdeaProbe?",
+      "summary": "IdeaProbe is an MIT-licensed, open-source local web application for early product market research. Founders, indie developers and creators describe an idea, confirm requirements and search keywords, discover related products, analyze available reviews and discussions, and generate a report with source references. Users configure their own model and search API keys.",
+      "facts": [
+        [
+          "Product category",
+          "AI market research and competitor analysis software"
+        ],
+        [
+          "Intended users",
+          "Founders, indie developers and creators researching a product idea"
+        ],
+        [
+          "Delivery",
+          "Download source code and run locally; this website is documentation, not the research application"
+        ],
+        [
+          "License and cost",
+          "MIT-licensed software; selected model and search providers may charge API fees"
+        ],
+        [
+          "Runtime",
+          "Node.js 24+ and Python 3.9+; no database or Docker required"
+        ],
+        [
+          "Models",
+          "OpenAI, Anthropic Claude, Google Gemini, and compatible Chat Completions services with JSON output"
+        ],
+        [
+          "Search",
+          "Bing public RSS, Tavily and Brave; all enabled available sources run in parallel for each query"
+        ],
+        [
+          "Feedback",
+          "Available App Store and Google Play reviews, plus separately verified discussion pages"
+        ],
+        [
+          "Output",
+          "Source-linked report, requirement capability matrix, collection coverage, JSON export and browser print to PDF"
+        ],
+        [
+          "Storage",
+          "Local .data directory; research content is sent to the providers selected by the user"
+        ],
+        [
+          "Default budget",
+          "1,000,000 total model tokens; limits can be adjusted by the user"
+        ],
+        [
+          "Current status",
+          "Local first release; no hosted subscription service, shared product database or payment flow"
+        ]
+      ],
+      "workflow": [
+        "Describe the idea and confirm an editable requirement list grounded in the original input.",
+        "Review search directions and the proposed keywords before starting research.",
+        "Search broadly, extract real candidates and distinguish evidence-backed support, evidence-backed non-support and unknown capabilities.",
+        "Check requirement coverage and product-form diversity even if enough candidates have been found. Run supplemental searches within the configured budget.",
+        "Rank candidates by confirmed requirement matching; investigate up to 10 selected products and retain the others with reasons.",
+        "Collect available feedback and generate a cited report. Record unfinished steps, timeouts or budget limits; never invent missing reviews."
+      ],
+      "faq": [
+        [
+          "How is IdeaProbe different from a general chatbot?",
+          "IdeaProbe provides a repeatable research workflow with editable requirements, multi-source search, ranked candidates, feedback collection, evidence-linked reports and local history. It does not guarantee that every relevant product is discovered or that every claim is correct."
+        ],
+        [
+          "Can IdeaProbe research apps, open-source tools, hardware and services?",
+          "The search and requirement-coverage workflow is general and can research these product types. App Store and Google Play have dedicated review collectors; other products depend on accessible product pages and discussion sources."
+        ],
+        [
+          "Does finding 10 competitors mean research is complete?",
+          "No. Candidate quantity and requirement coverage are separate checks. Unknown requirements or concentration in one implementation form can trigger supplemental searches within a separate adjustable request budget."
+        ],
+        [
+          "What does unknown capability mean?",
+          "No sufficient supporting source text has been verified. Supported and unsupported capability labels require a source reference and an exact quote. Unknown is not proof that a product lacks the feature."
+        ],
+        [
+          "Can a browser extension be treated as cross-device software?",
+          "No. Product shape alone does not prove device support, synchronization or interoperability. Each requirement must be checked separately against available evidence."
+        ],
+        [
+          "Can IdeaProbe run without paid search keys?",
+          "Bing public search RSS is enabled without a search key. Its availability and result quality vary. A model API key is still required; Tavily and Brave are optional keyed sources, and Tavily is used for page-body extraction."
+        ],
+        [
+          "What happens when tokens run low or a request times out?",
+          "The app reserves part of the token budget for analysis and reporting and can generate a report from collected evidence. Incomplete steps and reasons are shown. If model analysis cannot be completed, the fallback is explicitly labeled source excerpts, not a completed analytical report."
+        ],
+        [
+          "Are review counts guaranteed?",
+          "No. Collectors return whatever feedback is available; unofficial store interfaces can fail or return no reviews. Discussion pages are counted separately and are not verified purchase reviews."
+        ],
+        [
+          "Is there a public hosted app on this site?",
+          "No. GitHub Pages hosts product documentation only. The research application runs on the user’s computer at http://localhost:3210/ after installation."
+        ],
+        [
+          "Are Claude and Gemini integrations proven with live credentials?",
+          "Request routing and format have automated tests. Live end-to-end behavior depends on the selected provider, model access and valid user-supplied credentials."
+        ]
+      ],
+      "labels": {
+        "overview": "Product reference",
+        "facts": "Product facts",
+        "workflow": "Research workflow",
+        "faq": "Questions and limitations",
+        "sources": "Source and installation",
+        "home": "Product homepage",
+        "other": "中文",
+        "plain": "Read as Markdown",
+        "updated": "Content updated",
+        "repository": "Source code and README",
+        "license": "MIT license",
+        "issue": "Report an issue",
+        "sourceNote": "These are project-maintainer descriptions of implemented behavior, not independent reviews or measured market outcomes."
+      }
+    },
+    "zh": {
+      "title": "IdeaProbe 产品资料：AI 市场调研、竞品发现与用户评价分析",
+      "description": "IdeaProbe 官方项目资料：本地开源 AI 市场调研工具，支持竞品发现、需求覆盖核实、用户评价分析和带来源的报告。",
+      "heading": "IdeaProbe 是什么？",
+      "summary": "IdeaProbe 是采用 MIT 许可证的开源本地网页应用，用于产品前期市场调研。创业者、独立开发者和创作者输入想法，确认需求和关键词，发现相关产品，分析实际可获得的评价与讨论，生成带来源引用的报告。用户配置自己的模型和搜索 API key。",
+      "facts": [
+        [
+          "产品类别",
+          "AI 市场调研与竞品分析软件"
+        ],
+        [
+          "适用用户",
+          "研究产品想法的创业者、独立开发者与创作者"
+        ],
+        [
+          "使用方式",
+          "下载源码并在本机运行；本站是说明页，不是在线调研应用"
+        ],
+        [
+          "许可证与费用",
+          "软件采用 MIT 许可证；所选模型和搜索供应商可能收取 API 费用"
+        ],
+        [
+          "运行环境",
+          "Node.js 24+ 和 Python 3.9+，无需数据库或 Docker"
+        ],
+        [
+          "模型支持",
+          "OpenAI、Anthropic Claude、Google Gemini，以及支持 Chat Completions 和 JSON 输出的兼容服务"
+        ],
+        [
+          "搜索来源",
+          "Bing 公开 RSS、Tavily 和 Brave；每个关键词并行查询所有已启用且可用来源"
+        ],
+        [
+          "反馈来源",
+          "实际可获得的 App Store 和 Google Play 评论，以及单独核实的讨论页面"
+        ],
+        [
+          "输出内容",
+          "带来源报告、需求能力覆盖表、采集覆盖、JSON 导出及浏览器打印为 PDF"
+        ],
+        [
+          "数据存储",
+          "保存在本机 .data 目录；调研内容会发送给用户选择的供应商"
+        ],
+        [
+          "默认预算",
+          "模型 token 总上限为 100 万，用户可自行调整"
+        ],
+        [
+          "当前版本范围",
+          "本地首版；未提供托管订阅服务、共享产品数据库或支付流程"
+        ]
+      ],
+      "workflow": [
+        "描述想法，确认来自原始输入的可编辑需求清单。",
+        "开始调研前查看搜索方向和实际检索关键词。",
+        "广泛搜索并提取真实候选，区分有证据支持、有证据不支持和未知能力。",
+        "即使候选数量足够，仍检查需求覆盖及产品形态是否集中，并在预算内补搜。",
+        "按确认需求的证据匹配度排序，深入调查最多 10 个入选产品，保留其他候选与未入选原因。",
+        "采集实际可获得的反馈，生成带引用的报告，注明未完成步骤、超时和预算限制，不编造缺失评价。"
+      ],
+      "faq": [
+        [
+          "IdeaProbe 与普通聊天机器人有什么区别？",
+          "IdeaProbe 提供可重复执行的调研流程，包括可编辑需求、多源搜索、候选排名、反馈采集、带证据报告和本地记录。不能保证发现所有相关产品，也不能保证每条结论都正确。"
+        ],
+        [
+          "可以调研 App、开源工具、硬件和服务吗？",
+          "通用搜索和需求覆盖流程可调研这些产品类型。App Store 和 Google Play 有专门的评论采集器；其他产品依赖可访问的产品页面与讨论来源。"
+        ],
+        [
+          "找到 10 个竞品就代表调研完成吗？",
+          "不代表。候选数量与需求覆盖分别检查。需求仍未知或候选集中于单一实现形态时，可在独立且可调整的请求预算内补搜。"
+        ],
+        [
+          "能力标为“未知”是什么意思？",
+          "尚未核实到足够的来源文字。有证据支持和有证据不支持都需要来源引用和原文摘录；未知不等于该产品不支持这项功能。"
+        ],
+        [
+          "浏览器插件可以直接算作跨设备软件吗？",
+          "不可以。产品形态不能证明设备支持、同步或互通能力，每项需求都要根据可获得的证据单独核实。"
+        ],
+        [
+          "没有付费搜索 key 可以使用吗？",
+          "Bing 公开搜索 RSS 默认启用，无需搜索 key，但可用性和结果质量可能变化。模型 API key 仍需配置；Tavily 和 Brave 是可选的密钥来源，网页正文读取使用 Tavily。"
+        ],
+        [
+          "token 不足或请求超时时会怎样？",
+          "程序预留部分 token 给分析与报告，可根据已采集证据生成报告，并列出未完成步骤及原因。如果无法完成模型分析，会明确降级为来源摘录，而不冒充完整分析报告。"
+        ],
+        [
+          "能保证采集多少评论吗？",
+          "不能。评价拿到多少算多少，非官方商店接口可能失败或返回零条。讨论页面单独计数，不等同于经过验证的购买评价。"
+        ],
+        [
+          "这个网站能直接在线运行调研吗？",
+          "不能。GitHub Pages 仅提供产品说明，安装后调研应用在用户电脑的 http://localhost:3210/ 运行。"
+        ],
+        [
+          "Claude 和 Gemini 已经用真实账号验证了吗？",
+          "请求格式和路由有自动测试。真实端到端行为仍取决于所选供应商、模型权限和用户提供的有效密钥。"
+        ]
+      ],
+      "labels": {
+        "overview": "产品资料",
+        "facts": "产品事实",
+        "workflow": "调研流程",
+        "faq": "常见问题与限制",
+        "sources": "源码与启动说明",
+        "home": "产品介绍页",
+        "other": "English",
+        "plain": "阅读 Markdown 版本",
+        "updated": "内容更新日期",
+        "repository": "源码与 README",
+        "license": "MIT 许可证",
+        "issue": "反馈问题",
+        "sourceNote": "以上是项目维护者对已实现行为的说明，不是独立第三方评价或已测得的市场表现。"
+      }
+    }
+  }
+}

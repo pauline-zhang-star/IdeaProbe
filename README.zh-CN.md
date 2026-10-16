@@ -125,3 +125,5 @@ docs/         公开介绍页及检索元数据
 ## 需求覆盖
 
 确认来自用户原话的可编辑需求清单，检索计划覆盖不同需求维度。候选能力区分有证据支持、有证据不支持和未知，确认结论必须附来源原文。按需求的证据匹配度排序，保留部分匹配产品。候选数量足够但需求未覆盖或形态单一时，仍进行最多两轮补搜。独立补搜预算默认 20 次供应商请求，可调整。入选产品结合已读取产品页再次核实。报告显示能力覆盖表、证据与停止原因。此机制适用于软件、硬件和服务。
+
+公开说明：[中文产品资料](https://pauline-zhang-star.github.io/IdeaProbe/zh/facts/)和 [Markdown 版本](https://pauline-zhang-star.github.io/IdeaProbe/zh/facts/index.md)。产品资料及 FAQ 结构化数据由 `docs/site-data.json` 生成，修改后运行 `node scripts/build-site.mjs`。

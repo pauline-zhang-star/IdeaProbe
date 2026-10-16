@@ -1,25 +1,19 @@
 # IdeaProbe
 
-> IdeaProbe is an open-source local AI market research and competitor analysis app for founders, indie developers and creators. It discovers related products, collects available reviews and discussions, and generates reports with source references using the user's own API keys.
+> IdeaProbe is an MIT-licensed, open-source local web application for early product market research. Founders, indie developers and creators describe an idea, confirm requirements and search keywords, discover related products, analyze available reviews and discussions, and generate a report with source references. Users configure their own model and search API keys.
 
-## Authoritative project sources
-- [Chinese documentation](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/README.zh-CN.md): Complete Chinese setup and usage guide.
-- [Chinese homepage](https://pauline-zhang-star.github.io/IdeaProbe/zh/): Chinese product overview.
-- [English homepage](https://pauline-zhang-star.github.io/IdeaProbe/en/): English product overview.
-- [Project homepage](https://pauline-zhang-star.github.io/IdeaProbe/): Product overview, installation, features and FAQ.
-- [GitHub repository](https://github.com/pauline-zhang-star/IdeaProbe): Application source and issue tracking.
-- [README](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/README.md): Local setup, configuration, workflow and limits.
+## Product documentation
+- [English product facts](https://pauline-zhang-star.github.io/IdeaProbe/en/facts/): Capabilities, workflow, costs and limitations.
+- [English Markdown reference](https://pauline-zhang-star.github.io/IdeaProbe/en/facts/index.md): The same product facts in plain Markdown.
+- [Chinese product facts](https://pauline-zhang-star.github.io/IdeaProbe/zh/facts/): Separate Chinese documentation.
+- [Chinese Markdown reference](https://pauline-zhang-star.github.io/IdeaProbe/zh/facts/index.md): Chinese reference in Markdown.
+- [English homepage](https://pauline-zhang-star.github.io/IdeaProbe/en/): Overview and local setup.
+- [Chinese homepage](https://pauline-zhang-star.github.io/IdeaProbe/zh/): Chinese overview and local setup.
+- [Source code](https://github.com/pauline-zhang-star/IdeaProbe): Source, tests and installation instructions.
 - [License](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/LICENSE): MIT license.
+- [Sitemap](https://pauline-zhang-star.github.io/IdeaProbe/sitemap.xml): Canonical public HTML pages.
 
-## Capabilities
-- Idea interpretation and editable keyword planning before research.
-- Bing RSS, Tavily and Brave searched in parallel when enabled and available.
-- Broader queries when product discovery is sparse, within request budgets.
-- Ranked candidates; up to 10 products investigated in depth, with other candidates and selection reasons retained.
-- App Store and Google Play reviews; separately counted verified discussion pages.
-- OpenAI, native Anthropic Messages, official Gemini OpenAI-compatible API, and compatible Chat Completions services with JSON output.
-- Chinese and English UI; local task history; JSON export and browser printing to PDF.
+## Scope
+The public website is product documentation only. The app runs locally. API providers may charge usage fees. No guaranteed search coverage, review count, market demand or citation placement. Reviews and discussions are distinct. Capability support requires evidence; unknown is not unsupported.
 
-## Limits and costs
-Software is MIT-licensed. Users pay their chosen API providers where applicable. Local tasks and keys are stored in .data; research content is sent to chosen providers. There is no hosted paid service, shared database, public live app, guaranteed full-web coverage, or guarantee of market demand. Review collection uses unofficial interfaces and may fail. Reviews are never invented; discussions are not verified purchase reviews. Other-provider real calls require the user's credentials.
-
+Documentation updated: 2026-10-16. This index is an optional convenience for tools, not a guarantee that AI search engines use it.

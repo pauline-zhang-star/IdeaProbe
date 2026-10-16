@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://pauline-zhang-star.github.io/IdeaProbe/</loc></url>
-<url><loc>https://pauline-zhang-star.github.io/IdeaProbe/en/</loc></url>
-<url><loc>https://pauline-zhang-star.github.io/IdeaProbe/zh/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://pauline-zhang-star.github.io/IdeaProbe/</loc><lastmod>2026-10-16</lastmod></url>
+<url><loc>https://pauline-zhang-star.github.io/IdeaProbe/en/</loc><lastmod>2026-10-16</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://pauline-zhang-star.github.io/IdeaProbe/en/"/><xhtml:link rel="alternate" hreflang="zh-CN" href="https://pauline-zhang-star.github.io/IdeaProbe/zh/"/></url>
+<url><loc>https://pauline-zhang-star.github.io/IdeaProbe/zh/</loc><lastmod>2026-10-16</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://pauline-zhang-star.github.io/IdeaProbe/en/"/><xhtml:link rel="alternate" hreflang="zh-CN" href="https://pauline-zhang-star.github.io/IdeaProbe/zh/"/></url>
+<url><loc>https://pauline-zhang-star.github.io/IdeaProbe/en/facts/</loc><lastmod>2026-10-16</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://pauline-zhang-star.github.io/IdeaProbe/en/facts/"/><xhtml:link rel="alternate" hreflang="zh-CN" href="https://pauline-zhang-star.github.io/IdeaProbe/zh/facts/"/></url>
+<url><loc>https://pauline-zhang-star.github.io/IdeaProbe/zh/facts/</loc><lastmod>2026-10-16</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://pauline-zhang-star.github.io/IdeaProbe/en/facts/"/><xhtml:link rel="alternate" hreflang="zh-CN" href="https://pauline-zhang-star.github.io/IdeaProbe/zh/facts/"/></url>
 </urlset>
