@@ -8,7 +8,7 @@
 
 ## 45 秒介绍视频
 
-[![观看 IdeaProbe 介绍视频](docs/assets/ideaprobe-demo-cover.jpg)](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/docs/assets/ideaprobe-demo-45s.mp4)
+[![观看 IdeaProbe 介绍视频](docs/assets/ideaprobe-demo-cover.jpg)](https://pauline-zhang-star.github.io/IdeaProbe/demo/)
 
 观看 45 秒英文介绍：确认想法、发现相关产品、检查采集证据，并查看带来源引用的报告。
 

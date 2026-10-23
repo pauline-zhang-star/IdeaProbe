@@ -8,7 +8,7 @@ A local web app that turns a product idea into a sourced market research report.
 
 ## 45-second demo
 
-[![Watch the IdeaProbe introduction video](docs/assets/ideaprobe-demo-cover.jpg)](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/docs/assets/ideaprobe-demo-45s.mp4)
+[![Watch the IdeaProbe introduction video](docs/assets/ideaprobe-demo-cover.jpg)](https://pauline-zhang-star.github.io/IdeaProbe/demo/)
 
 Watch the 45-second introduction: confirm your idea, discover related products, inspect collected evidence, and review the sourced report.
 
