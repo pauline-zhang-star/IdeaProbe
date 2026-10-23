@@ -6,6 +6,12 @@
 
 **用途：** 产品想法前期调研、竞品发现、App 用户评价分析、开源工具调研，以及独立开发者和创作者的市场研究。
 
+## 45 秒介绍视频
+
+[![观看 IdeaProbe 介绍视频](docs/assets/ideaprobe-demo-cover.jpg)](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/docs/assets/ideaprobe-demo-45s.mp4)
+
+观看 45 秒英文介绍：确认想法、发现相关产品、检查采集证据，并查看带来源引用的报告。
+
 ## 功能
 
 - **先确认理解：** 修改想法摘要、问题、目标用户、场景和检索关键词。先广泛发现产品，目标用户和场景用于评分，不作为排除产品的条件。

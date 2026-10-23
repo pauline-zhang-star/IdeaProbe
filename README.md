@@ -6,6 +6,12 @@ A local web app that turns a product idea into a sourced market research report.
 
 **Use cases:** product idea validation research, competitor discovery, app review analysis, open-source tool research, and market research for indie developers and creators.
 
+## 45-second demo
+
+[![Watch the IdeaProbe introduction video](docs/assets/ideaprobe-demo-cover.jpg)](https://github.com/pauline-zhang-star/IdeaProbe/blob/main/docs/assets/ideaprobe-demo-45s.mp4)
+
+Watch the 45-second introduction: confirm your idea, discover related products, inspect collected evidence, and review the sourced report.
+
 ## Features
 
 - **Confirm before research:** edit the interpreted idea, problem, audience, scenario and search keywords. Broad discovery comes first; audience and scenario inform ranking rather than excluding products.
